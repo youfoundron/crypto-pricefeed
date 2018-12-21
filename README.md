@@ -16,7 +16,7 @@ Use npm to install dependencies:
 ## Demo & Playground UI
 To run the GraphQL server locally and inspect the playground UI:  
 `$ npm run dev`  
-Then visit [localhost:4000](localhost:4000) in your browser.
+Then visit [localhost:4000](http://localhost:4000) in your browser.
 
 ## Building
 Use backpack to create your bundle.  

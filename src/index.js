@@ -16,16 +16,13 @@ const resolvers = {
   }
 }
 
-// Go to http://localhost:4000 to test your API
-const playground = process.env.NODE_ENV === 'development'
-
 const server = new GraphQLServer({
   typeDefs,
   resolvers,
-  playground,
   context: {
     nomics: new NomicsConnector(NOMICS_API_KEY)
   }
 })
 
+// Go to http://localhost:4000 to test your API
 server.start(() => console.log('Server running on :4000'))

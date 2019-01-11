@@ -1,6 +1,6 @@
 # Crypto Price Feed Using Nomics & GraphQL
 
-This is source code for the tutorial written [here](https://medium.com/tokensoft).  
+This is source code for the tutorial written [here](https://medium.com/tokensoft/write-your-own-crypto-price-feed-api-in-10-minutes-with-nomics-and-graphql-a4cb29e76fdf).  
 
 It was made possible by several open-source tools.  
 Some of these include:
